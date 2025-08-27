@@ -1,13 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
-export default function InputField({
-  label,
-  type,
-  name,
-  value,
-  onChange,
-  error,
-}) {
+const InputField = ({ label, type, name, value, onChange, error }) => {
   const [show, setShow] = useState(false);
   const isPassword = type === "password";
 
@@ -77,4 +70,5 @@ export default function InputField({
       {error && <p className="text-red-500 text-sm mt-1">{error}</p>}
     </div>
   );
-}
+};
+export default InputField;

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import InputField from "../components/InputField";
 import { validateSignup } from "../utils/validation";
@@ -35,7 +35,7 @@ const Signup = () => {
       className="flex items-center justify-center min-h-screen px-2"
       style={{ backgroundColor: "#BBDCE5" }}
     >
-      <div className="bg-white shadow-lg w-full max-w-4xl min-h-[600px]">
+      <div className="bg-white shadow-lg w-full max-w-4xl min-h-[500px]">
         <div
           className="w-full p-4  text-white lex items-center justify-center"
           style={{ backgroundColor: "#075B5E" }}
@@ -108,12 +108,6 @@ const Signup = () => {
                 Sign Up
               </button>
             </div>
-            {/* <p
-              className="mt-4 text-blue-600 cursor-pointer text-center hover:underline"
-              onClick={() => navigate("/login")}
-            >
-              Already have an account? Login
-            </p> */}
           </form>
         </div>
       </div>
