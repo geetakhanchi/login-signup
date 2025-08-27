@@ -33,7 +33,8 @@ const Login = () => {
           style={{ backgroundColor: "#075B5E" }}
         >
           {" "}
-          <h2 className="text-2xl font-semibold p-2 text-center">Login</h2>
+          <h2 className="text-2xl p-2 text-center">Login</h2>
+          <p className="text-sm text-center">Sign in to continue</p>
         </div>
 
         <div className="p-6 w-full max-w-md mx-auto">
